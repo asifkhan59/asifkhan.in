@@ -1297,7 +1297,7 @@ header{
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url('https://share.google/rFFxUz8OuNpwgprgc') no-repeat;
+	background-image: #151515 url('https://share.google/rFFxUz8OuNpwgprgc') no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
