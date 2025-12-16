@@ -1297,7 +1297,7 @@ header{
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: url('https://png.pngtree.com/thumb_back/fh260/background/20240610/pngtree-computer-of-a-programmer-with-lines-code-of-software-image_15746003.jpg') no-repeat;
+	background: url('/images/su.jpg') no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1309,7 +1309,7 @@ header{
 	position: relative;
 	text-align: center;
 }
-.intro-overlay {
+/* .intro-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1317,7 +1317,7 @@ header{
 	height: 100%;
 	background: #111111;
 	opacity: .75;
-}
+} */
 
 .intro-content {
 	display: table-cell;
@@ -1328,7 +1328,7 @@ header{
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #FFFFFF;
+	color: red;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1355,7 +1355,7 @@ header{
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #FFFFFF;
+	color: black;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position span {
@@ -1366,18 +1366,18 @@ header{
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
-	color: rgba(255, 255, 255, 0.3);
+	color: black;
 }
 .intro-content .intro-position span:first-child::before {
 	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 14px 0 8px;
-	color: rgba(255, 255, 255, 0.3);
+	color: black;
 }
 .intro-content .button {
-	color: #FFFFFF !important;
-	border-color: rgba(255, 255, 255, 0.3);
+	color: black !important;
+	border-color: black;
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
@@ -1416,7 +1416,7 @@ header{
 	padding: 0;
 }
 .intro-social li a, .intro-social li a:visited {
-	color: #FFFFFF;
+	color: black;
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
